@@ -9,12 +9,13 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
-- url: /.*
-  script: helloworld.app
-
-
 - url: /ipynbs
   static_dir: ipynbs
+
+
+- url: /
+  script: helloworld.app
+
 
 
 libraries:
