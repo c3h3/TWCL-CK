@@ -12,6 +12,11 @@ handlers:
 - url: /.*
   script: helloworld.app
 
+
+- url: /ipynbs
+  static_dir: ipynbs
+
+
 libraries:
 - name: webapp2
   version: "2.5.2"
